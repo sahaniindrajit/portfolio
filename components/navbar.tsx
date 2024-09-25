@@ -117,7 +117,7 @@ function MobileMenu() {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
-                        className="md:hidden absolute left-0 right-0 bg-black shadow-lg"
+                        className="md:hidden absolute left-0 right-0 bg-transparent shadow-lg"
                         initial="closed"
                         animate="open"
                         exit="closed"
