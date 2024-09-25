@@ -1,6 +1,7 @@
 
 
 import AboutMe from "@/components/aboutMe";
+import Skills from "@/components/skills";
 import WorkAndEducation from "@/components/workAndEducation";
 
 
@@ -10,6 +11,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 px-2 row-start-2 items-center md:items-start w-full overflow-hidden">
         <AboutMe />
         <WorkAndEducation />
+        <Skills />
       </main>
     </div>
   );
