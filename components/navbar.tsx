@@ -28,7 +28,6 @@ export default function NavBar() {
                             <NavLink href="/" label="Home" />
                             <NavLink href="/projects" label="Projects" />
                             <NavLink href="/blog" label="Blog" />
-                            <NavLink href="/achievements" label="Achievements" />
                         </div>
                     </div>
                     <div className="md:hidden">
