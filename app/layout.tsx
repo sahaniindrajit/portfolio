@@ -6,7 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Meteors from "@/components/magicui/meteors";
 import NavBar from "@/components/navbar";
 import { FloatDock } from "@/components/floatDock";
-
+import Contact from "@/components/contact";
 
 // Load Bricolage Grotesque font
 const bricolageGrotesque = Bricolage_Grotesque({
@@ -116,6 +116,8 @@ export default function RootLayout({
         </ThemeProvider>
 
         <FloatDock />
+        <Contact />
+
 
 
 

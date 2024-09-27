@@ -2,9 +2,8 @@
 
 import AboutMe from "@/components/aboutMe";
 import Skills from "@/components/skills";
-import Projects from "@/components/projectCard"
+import Projects from "@/components/projectOverview"
 import WorkAndEducation from "@/components/workAndEducation";
-import Contact from "@/components/contact";
 
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
         <WorkAndEducation />
         <Skills />
         <Projects />
-        <Contact />
 
       </main>
     </div>

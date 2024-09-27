@@ -32,6 +32,10 @@ const Contact = () => {
             </div>
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+
 
         </div>
     );

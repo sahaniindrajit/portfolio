@@ -127,7 +127,6 @@ function MobileMenu() {
                                 { href: "/", label: "Home" },
                                 { href: "/projects", label: "Projects" },
                                 { href: "/blog", label: "Blog" },
-                                { href: "/achievements", label: "Achievements" }
                             ].map((link, index) => (
                                 <motion.div
                                     key={link.href}

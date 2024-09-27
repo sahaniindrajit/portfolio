@@ -65,6 +65,5 @@
   }
   body {
     @apply bg-background text-foreground;
-    @apply mt-14
   }
 }
