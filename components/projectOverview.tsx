@@ -40,6 +40,7 @@ const Projects = () => {
                                 i={idx}
                                 name={project.name}
                                 image={project.image}
+                                video={project.video}
                                 date={project.date}
                                 shortDesc={project.shortDesc}
                                 tags={project.techStack}

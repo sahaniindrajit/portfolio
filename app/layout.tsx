@@ -4,7 +4,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Meteors from "@/components/magicui/meteors";
-import NavBar from "@/components/navbar";
 import { FloatDock } from "@/components/floatDock";
 import Contact from "@/components/contact";
 
@@ -110,7 +109,6 @@ export default function RootLayout({
         className={`${bricolageGrotesque.className} bg-black antialiased z-50 overflow-x-hidden`}
       >
         <Meteors number={50} />
-        <NavBar />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>{children}</TooltipProvider>
         </ThemeProvider>

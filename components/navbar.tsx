@@ -27,7 +27,6 @@ export default function NavBar() {
                         <div className="ml-10 flex items-baseline space-x-4">
                             <NavLink href="/" label="Home" />
                             <NavLink href="/projects" label="Projects" />
-                            <NavLink href="/blog" label="Blog" />
                         </div>
                     </div>
                     <div className="md:hidden">
@@ -126,7 +125,6 @@ function MobileMenu() {
                             {[
                                 { href: "/", label: "Home" },
                                 { href: "/projects", label: "Projects" },
-                                { href: "/blog", label: "Blog" },
                             ].map((link, index) => (
                                 <motion.div
                                     key={link.href}
