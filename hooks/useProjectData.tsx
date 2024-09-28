@@ -70,7 +70,7 @@ export const useProjectData: ProjectProps[] = [
     },
     {
         image: "https://utfs.io/f/799t8sfip0Hk6IKDoQvb0rcHyVLkOTjfQqPJ39R1Bnd2zpWX",
-        video: "https://utfs.io/f/799t8sfip0Hk6IKDoQvb0rcHyVLkOTjfQqPJ39R1Bnd2zpWX",
+        video: "https://utfs.io/f/799t8sfip0Hk5XuBx9K7BW6qS4YKdQkjRJ1yzTwiroICp8AG",
         name: "Sticky Notes",
         trending: false,
         techStack: ["Javascript", "HTML", "CSS"],

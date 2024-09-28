@@ -52,22 +52,17 @@ const Projects = () => {
                 </div>
 
                 <Link href="/projects" legacyBehavior>
-
-
-                    <a className="transition duration-200 flex items-center justify-start space-x-2 text-xl font-medium">
-
-                        <AnimatedGradientText className=" w-fit text-xs">
-                            🗃️ <hr className="mx-2 h-4 w-[1px] shrink-0 bg-primary/30" />{" "}
-                            <span
-                                className={cn(
-                                    `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
-                                )}
-                            >
+                    <a className="transition duration-200 flex items-center justify-center space-x-2 text-xl font-medium text-white hover:text-gray-300 border border-gray-600 rounded-lg p-2">
+                        <div className="flex items-center space-x-2">
+                            <span className="text-xs">🗃️</span>
+                            <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-500" />
+                            <span className="inline-block bg-gradient-to-r from-yellow-400 to-purple-500 bg-clip-text text-transparent animate-pulse text-center">
                                 View All Projects
                             </span>
-                        </AnimatedGradientText>
-
+                        </div>
                     </a>
+
+
                 </Link>
 
             </div>
