@@ -36,7 +36,7 @@ export const useProjectData: ProjectProps[] = [
         LiveLink: "https://sahaniindrajit.hashnode.dev/import-spotify-playlist-to-youtube-account-with-nodejs",
     },
     {
-        image: "https://utfs.io/f/799t8sfip0HkeA0VvRwDaSMPvRwsdh5IzCNoKf4TBqZl03V8",
+        image: "https://utfs.io/f/799t8sfip0HkFNI2TmWvjKuEoX7hU1ZiIMsldc0tDNwBLY4q",
         video: "https://utfs.io/f/799t8sfip0Hk0S1VWAhUnhTQeA4ZF8PUkl1KDxC5m0yzbsvt",
         name: "Toupe Payment [Implementing database transation]",
         trending: false,

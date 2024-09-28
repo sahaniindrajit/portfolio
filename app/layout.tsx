@@ -3,6 +3,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { Analytics } from "@vercel/analytics/react"
 import Meteors from "@/components/magicui/meteors";
 import { FloatDock } from "@/components/floatDock";
 import Contact from "@/components/contact";
@@ -110,7 +111,10 @@ export default function RootLayout({
       >
         <Meteors number={50} />
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <TooltipProvider delayDuration={0}>{children}</TooltipProvider>
+          <TooltipProvider delayDuration={0}>
+            {children}
+            <Analytics />
+          </TooltipProvider>
         </ThemeProvider>
 
         <FloatDock />
