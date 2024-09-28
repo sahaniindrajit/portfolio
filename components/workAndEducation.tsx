@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Bot, GraduationCap } from "lucide-react";
 import React from "react";
 {/*
