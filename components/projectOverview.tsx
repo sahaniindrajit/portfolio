@@ -1,7 +1,5 @@
 
 import React from "react";
-import AnimatedGradientText from "./magicui/animated-gradient-text";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
 import ProjectCard from "./projectCard";
 import { useProjectData } from "@/hooks/useProjectData";
