@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# About Me
 
-First, run the development server:
+Hi! I'm Indrajit sahani, a **Full-Stack Web Developer** passionate about creating impactful solutions using **technology**. My work focuses on building user-friendly, accessible, and high-performance applications that solve real-world problems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What I Do
+I specialize in **web development** with expertise in both frontend and backend technologies. My goal is to craft seamless, responsive, and intuitive user experiences while maintaining clean, scalable, and efficient code. I also have a growing interest in **AI** and **Web3**, exploring how emerging technologies can elevate the future of the web.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Skills & Technologies
+- **Frontend:** React, Next.js, TypeScript, Tailwind CSS, ShadCN, HTML, CSS
+- **Backend:** Node.js, Express, MongoDB, PostgreSQL, Prisma
+- **Tools & Platforms:** Git, GitHub, Vercel, Firebase, Cloudflare Workers
+- **APIs:** REST, WebSocket, Redis, Spotify API, YouTube Data API
+- **Other:** Tanstack Query, Recoil, Stripe, OAuth2, Zod, Prisma ORM
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Notable Projects
+- **ClientTrack(Working):** A Freelancer/Client Management System with features like project tracking, time management, invoicing, and payment integration.
+- **ManageFiasco:** A Kanban-based task management system with a modern UI for managing tasks and user authentication.
+- **Spotify to YouTube Playlist Converter:** An app that automates the conversion of Spotify playlists into YouTube playlists using APIs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Passion for Learning
+I continuously strive to learn and improve. Currently, I’m delving into new technologies such as **Go**, and advanced **backend development**. My drive to grow helps me stay up-to-date with the latest trends and tools in the tech industry.
 
-## Learn More
+## Let's Connect!
+- **Blog:** [My Tech Insights](https://sahaniindrajit.hashnode.dev/)
+- **GitHub:** [@sahaniindrajit](https://github.com/sahaniindrajit)
+- **LinkedIn:** [LinkedIn](https://linkedin.com/in/indrajitsahani)
+- **Twitter:**[@sahani_indrajit](https://x.com/sahani_indrajit)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thanks for stopping by! Feel free to reach out if you want to collaborate or chat about web development and tech.
