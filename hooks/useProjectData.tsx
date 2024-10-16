@@ -14,6 +14,16 @@ interface ProjectProps {
 export const useProjectData: ProjectProps[] = [
 
     {
+        image: "https://utfs.io/f/799t8sfip0HkmKlNAN7zMWKcpFxiROB9SmH7Pj063VroGtk1",
+        video: "https://utfs.io/f/799t8sfip0Hkmo5W497zMWKcpFxiROB9SmH7Pj063VroGtk1",
+        name: "PDF-Talk: AI-Powered PDF Question-Answering Web App",
+        trending: true,
+        techStack: ["Next.js", "Node.js", "Next-Auth", "MongoDB", "Langchain", "Pinecone", "Hugging Face"],
+        shortDesc: "PDF-Talk is a web application that allows users to upload PDF documents and ask questions about their content, leveraging AI for accurate answers.",
+        date: "October 2024",
+        Github: "https://github.com/sahaniindrajit/Pdf-talk",
+        LiveLink: "https://pdf-talk-opal.vercel.app/",
+    }, {
         image: "https://utfs.io/f/799t8sfip0HkAlKW1LqFHcp9J3yhxjOTltCYgBZbEdnruPkR",
         video: "https://utfs.io/f/799t8sfip0Hkzml2768gqP6cHd8K1fowuLUZaAXYrCv3xFDI",
         name: "ManageFiasco: A Modern Task Management System with Kanban Board",
@@ -39,7 +49,7 @@ export const useProjectData: ProjectProps[] = [
         image: "https://utfs.io/f/799t8sfip0HkFNI2TmWvjKuEoX7hU1ZiIMsldc0tDNwBLY4q",
         video: "https://utfs.io/f/799t8sfip0Hk0S1VWAhUnhTQeA4ZF8PUkl1KDxC5m0yzbsvt",
         name: "Toupe Payment [Implementing database transation]",
-        trending: false,
+        trending: true,
         techStack: ["React", "Node.js", "Express", "MongoDB", "Zod"],
         shortDesc: "A secure Toupe Payment system built with React, MongoDB, Zod, Node.js, and Express, implementing reliable database transactions for seamless payment processing.",
         date: "August 2024",
@@ -69,7 +79,7 @@ export const useProjectData: ProjectProps[] = [
         LiveLink: "https://66c0f258c24898d365946c0a--monumental-gumdrop-e6cbda.netlify.app/",
     },
     {
-        image: "https://utfs.io/f/799t8sfip0Hk6IKDoQvb0rcHyVLkOTjfQqPJ39R1Bnd2zpWX",
+        image: "https://utfs.io/f/799t8sfip0HkP2t4pUtCMNs5WypuJKC7TOV2GxZrahnmeUcL",
         video: "https://utfs.io/f/799t8sfip0Hk5XuBx9K7BW6qS4YKdQkjRJ1yzTwiroICp8AG",
         name: "Sticky Notes",
         trending: false,
@@ -80,7 +90,7 @@ export const useProjectData: ProjectProps[] = [
         LiveLink: "https://master--shimmering-melba-866446.netlify.app/",
     },
     {
-        image: "https://utfs.io/f/799t8sfip0Hk5SPWY3K7BW6qS4YKdQkjRJ1yzTwiroICp8AG",
+        image: "https://utfs.io/f/799t8sfip0HkVwMBuQ6AYgl9LNoIScM8dJrv6ZjQ4qFP5t3a",
         video: "https://utfs.io/f/799t8sfip0Hk7wfIS2ip0HkjJYu92evrTqyfcog5WVQsRCZz",
         name: "Tic-Tac-Toe",
         trending: false,
