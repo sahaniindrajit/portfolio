@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Indrajit sahani's personal portfolio website for showcasing thier achievements like winning Hackathons, freelancing as a Full Stack Web Developer or Professional Experiences and pursuing a Computer science at Guru Gobind Singh Indraprastha University.",
   keywords:
-    "Indrajit sahani, portfolio, web developer, software engineer, React, JavaScript, TypeScript, Nextjs, Full Stack AI Developer, StoryDev, Guru Gobind Singh Indraprastha University",
+    "Indrajit Sahani, Indrajit,sahani,Indrajit delhi,Indrajit new delhi,Indrajit sahani delhi, full stack developer, full stack web developer, freelance web developer, software engineer, React developer, Next.js developer, AI developer, full stack AI developer, JavaScript developer, TypeScript developer, hackathon winner, freelancing developer,Indrajit sahani delhi,Indrajit odisha, software engineer portfolio, React portfolio, JavaScript portfolio, Guru Gobind Singh Indraprastha University, AI project developer, AI PDF question answering website, web developer India",
   authors: [{ name: "Indrajit Sahani" }],
   openGraph: {
     type: "website",
@@ -29,14 +29,17 @@ export const metadata: Metadata = {
     url: "https://indrajitsahani.com",
     siteName: "Indrajit Sahani Portfolio",
     title: "Indrajit Sahani - Web Developer & Software Engineer",
-    description:
-      "Explore Indrajit Sahani's portfolio featuring his achievements, freelancing as a Full Stack Web Developer, and more.",
+    description: "Explore Indrajit Sahani's portfolio featuring his achievements, freelancing as a Full Stack Web Developer, and more.",
 
   },
   twitter: {
     card: "summary_large_image",
     site: "@sahani_indrajit",
     creator: "@sahani_indrajit",
+    title: "Indrajit Sahani - Full Stack Developer & Software Engineer",
+    description:
+      "Explore the portfolio of Indrajit Sahani, a Full Stack Web Developer and Software Engineer with experience in AI development and freelance projects.",
+
 
   },
   robots: {
