@@ -4,7 +4,6 @@ import Link from "next/link";
 import AnimatedGradientText from "./magicui/animated-gradient-text";
 import { cn } from "@/lib/utils";
 
-// ProjectCard component to display individual project details
 export default function ProjectCard({
     i,
     name,
@@ -39,9 +38,8 @@ export default function ProjectCard({
                         muted
                         loop
                         playsInline
-                        poster={image} // Display the image before the video plays
+                        poster={image}
                     >
-                        {/* Fallback image if video is not supported */}
                         <source src={video} type="video/mp4" />
                         <Image
                             width={900}
@@ -52,7 +50,6 @@ export default function ProjectCard({
                         />
                     </video>
 
-                    {/* Optional <noscript> for non-JS environments */}
                     <noscript>
                         <Image
                             width={900}
