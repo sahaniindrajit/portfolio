@@ -42,7 +42,6 @@ const DATA = {
         "Docker",
         "WebSocket",
         "Redis",
-        "Kafka",
         "Vercel",
         "GitHub",
         "VS Code"
