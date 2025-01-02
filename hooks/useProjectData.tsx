@@ -12,7 +12,17 @@ interface ProjectProps {
 }
 
 export const useProjectData: ProjectProps[] = [
-
+    {
+        image: "https://utfs.io/f/799t8sfip0HkYs7sIkZdc2RHv1Ka0miDQE3pg9ZMh4VJwC5l",
+        video: "https://utfs.io/f/799t8sfip0HkKLdv68siMOmqvkaoXpjZVHRFfTB3gChYr76t",
+        name: "SketchSync: Real-Time Collaborative Whiteboard",
+        trending: true,
+        techStack: ["React.js", "Node.js", "React-Konva", "Web socket", "Express.js"],
+        shortDesc: "SketchSync – A dynamic and intuitive whiteboard collaboration app that lets teams sketch, brainstorm, and share ideas in real time. Designed for creativity and seamless syncing, SketchSync enhances productivity with smooth drawing tools and live collaboration features.",
+        date: "December 2024",
+        Github: "https://github.com/sahaniindrajit/sketchsync",
+        LiveLink: "https://sketchsync.onrender.com",
+    },
     {
         image: "https://utfs.io/f/799t8sfip0HkmKlNAN7zMWKcpFxiROB9SmH7Pj063VroGtk1",
         video: "https://utfs.io/f/799t8sfip0Hkmo5W497zMWKcpFxiROB9SmH7Pj063VroGtk1",
