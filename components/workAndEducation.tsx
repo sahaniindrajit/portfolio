@@ -1,28 +1,20 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Bot, GraduationCap } from "lucide-react";
 import React from "react";
-{/*
+
 const workExperiences = [
     {
-        title: "random",
-        company: "dfd 🚀",
-        companyUrl: "dfds",
-        date: "October, 2022 - Present",
+        title: "Web Developer",
+        company: "Google Developer Group",
+        companyUrl: "https://gdg.community.dev/gdg-on-campus-guru-tegh-bahadur-institute-of-technology-delhi-india/",
+        date: "November, 2024 - Present",
         description:
-            "Working on a project to create an AI-driven website assistant. I'm exploring the capabilities of Next.js to develop a user-friendly and intelligent tool.",
+            "Collaborated with a community of developers to build impactful web projects, contributing to open-source initiatives and knowledge-sharing sessions.",
         isLatest: true,
     },
-    {
-        title: "dsf",
-        company: null,
-        companyUrl: "dfds",
-        date: "May, 2024 - September, 2024",
-        description:
-            "I developed some highly intuitive AI applications for my clients, addressing their unique needs and challenges. Additionally, I worked on several personal SaaS projects, focusing on creating innovative and user-friendly applications to streamline various tasks and improve productivity.",
-        isLatest: false,
-    },
+
 ];
-*/}
+
 const educationExperiences = [
     {
         title: "Bachelor of technology 🎓",
@@ -111,11 +103,11 @@ const ExperienceSection = ({
 const WorkAndEducation = () => {
     return (
         <div className="flex flex-col gap-8">
-            {/*<ExperienceSection
+            <ExperienceSection
                 title="Work Experience"
                 experiences={workExperiences}
                 icon={<Bot size={14} className="sm:w-4 sm:h-4" />}
-            />*/}
+            />
             <ExperienceSection
                 title="Education"
                 experiences={educationExperiences}
