@@ -10,8 +10,17 @@ const workExperiences = [
         date: "November, 2024 - Present",
         description:
             "Collaborated with a community of developers to build impactful web projects, contributing to open-source initiatives and knowledge-sharing sessions.",
-        isLatest: true,
+        isLatest: false,
     },
+    {
+        title: "Full-Stack Developer Intern",
+        company: "YouseAI",
+        companyUrl: "https://www.youseai.com/",
+        date: "January, 2025 - Present",
+        description:
+            "Building a LinkedIn automation tool to streamline outreach, manage connections, and enhance engagement through personalized messaging and workflow automation.",
+        isLatest: true,
+    }
 
 ];
 
