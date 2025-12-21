@@ -16,11 +16,21 @@ const workExperiences = [
         title: "Full-Stack Developer Intern",
         company: "YouseAI",
         companyUrl: "https://www.youseai.com/",
-        date: "January, 2025 - Present",
+        date: "January, 2025 - October, 2025",
         description:
             "Building a LinkedIn automation tool to streamline outreach, manage connections, and enhance engagement through personalized messaging and workflow automation.",
+        isLatest: false,
+    },
+    {
+        title: "Full-Stack Developer",
+        company: "Enrich Labs",
+        companyUrl: "https://www.enrich.so/",
+        date: "October, 2025 - Present",
+        description: "",
+        // "Building a LinkedIn automation tool to streamline outreach, manage connections, and enhance engagement through personalized messaging and workflow automation.",
         isLatest: true,
-    }
+    },
+
 
 ];
 
