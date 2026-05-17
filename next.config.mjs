@@ -3,11 +3,20 @@ const nextConfig = {
     images: {
         remotePatterns: [
             {
-                protocol: 'https', // Define the protocol
-                hostname: 'utfs.io', // Allow images from the utfs.io domain
-                pathname: '/**', // Allow all paths from the domain
+                protocol: 'https',
+                hostname: 'utfs.io',
+                pathname: '/**',
             },
         ],
+    },
+    async redirects() {
+        return [
+            {
+                source: '/resume',
+                destination: 'https://www.notion.so/indrajitsahani/Resume-X-Indrajit-36378c44adcc8064acadc91403c78309',
+                permanent: true,
+            },
+        ]
     },
 };
 
