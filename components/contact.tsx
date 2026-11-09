@@ -12,21 +12,28 @@ const Contact = () => {
                     Get in Touch
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    Want to chat? Just shoot me a dm{" "}
+                    Building something interesting? DM me on{" "}
                     <Link
                         href={"https://x.com/sahani_indrajit"}
                         className="text-blue-500 hover:underline"
                     >
-                        with a direct question on X
+                        X
                     </Link>{" "}
-                    or send me an email at{" "}
+                    or{" "}
+                    <Link
+                        href={"https://linkedin.com/in/indrajitsahani"}
+                        className="text-blue-500 hover:underline"
+                    >
+                        LinkedIn
+                    </Link>
+                    , or email me at{" "}
                     <Link
                         href="mailto:indrajit38mig@gmail.com"
                         className="text-blue-500 hover:underline"
                     >
                         indrajit38mig@gmail.com
                     </Link>
-                    , and I&apos;ll respond whenever I can.
+                    . I usually reply within a day.
                 </p>
 
             </div>

@@ -18,18 +18,19 @@ export default function ProjectCard({
 }: {
     i: number;
     name: string;
-    image: string;
-    video: string;
+    image?: string;
+    video?: string;
     date: string;
     shortDesc: string;
     tags: string[];
-    Github: string;
+    Github?: string;
     trending: boolean;
-    LiveLink: string;
+    LiveLink?: string;
 }) {
     return (
         <div className="max-w-sm mb-10 transition-transform transform hover:scale-105 hover:border-white hover:shadow-lg flex flex-col justify-between mx-auto border border-primary/10 duration-200 rounded-md py-4 px-3">
             <div>
+                {video ? (
                 <div>
                     <video
                         className="rounded-lg w-full h-full object-cover"
@@ -45,7 +46,7 @@ export default function ProjectCard({
                             width={900}
                             height={900}
                             className="rounded-lg"
-                            src={image}
+                            src={image ?? ""}
                             alt="Fallback image for video"
                         />
                     </video>
@@ -55,11 +56,16 @@ export default function ProjectCard({
                             width={900}
                             height={900}
                             className="rounded-lg"
-                            src={image}
+                            src={image ?? ""}
                             alt="Fallback image for video"
                         />
                     </noscript>
                 </div>
+                ) : (
+                <div className="rounded-lg w-full aspect-video flex items-center justify-center bg-gradient-to-br from-[#ffaa40]/20 via-[#9c40ff]/20 to-secondary border border-primary/10">
+                    <span className="font-semibold text-lg text-primary/90 px-4 text-center">{name.split(":")[0]}</span>
+                </div>
+                )}
                 <div className="w-full flex flex-col justify-center items-start">
                     {trending && (
                         <AnimatedGradientText className="mt-3 w-fit text-xs">
@@ -94,17 +100,21 @@ export default function ProjectCard({
                     })}
                 </div>
                 <div className="flex gap-2">
+                    {LiveLink && (
                     <Link target="_blank" className="flex gap-2" href={LiveLink}>
                         <div className="bg-secondary hover:bg-secondary/80 flex gap-2 items-center text-primary w-fit px-3 py-1.5 rounded-md text-xs">
                             <Globe size={16} /> Website
                         </div>
                     </Link>
+                    )}
 
+                    {Github && (
                     <Link target="_blank" className="flex gap-2" href={Github}>
                         <div className="bg-secondary hover:bg-secondary/80 flex gap-2 items-center text-primary w-fit px-3 py-1.5 rounded-md text-xs">
                             <Code size={16} /> Code
                         </div>
                     </Link>
+                    )}
                 </div>
             </div>
         </div>
