@@ -17,9 +17,9 @@ const bricolageGrotesque = Bricolage_Grotesque({
 
 // Metadata configuration for Next.js
 export const metadata: Metadata = {
-  title: "Indrajit Sahani - Web Developer & Software Engineer",
+  title: "Indrajit Sahani - Full-Stack Engineer",
   description:
-    "Indrajit sahani's personal portfolio website for showcasing thier achievements like winning Hackathons, freelancing as a Full Stack Web Developer or Professional Experiences and pursuing a Computer science at Guru Gobind Singh Indraprastha University.",
+    "Indrajit Sahani is a full-stack engineer at Enrich Labs who owns Sendkit end to end: product engineering, infrastructure, observability, email deliverability, and AI integrations. B.Tech IT at Guru Gobind Singh Indraprastha University.",
   keywords:
     "Indrajit Sahani, Indrajit,sahani,Indrajit delhi,Inderjeet sahani,Indrajeet sahani,Inderjit sahani, Indrajit new delhi,Indrajit sahani delhi, full stack developer, full stack web developer, freelance web developer, software engineer, React developer, Next.js developer, full stack AI developer, JavaScript developer, TypeScript developer, hackathon winner, freelancing developer,Indrajit sahani delhi,Indrajit odisha, software engineer portfolio, React portfolio, Guru Gobind Singh Indraprastha University, web developer India",
   authors: [{ name: "Indrajit Sahani" }],
@@ -28,17 +28,17 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://indrajitsahani.com",
     siteName: "Indrajit Sahani Portfolio",
-    title: "Indrajit Sahani - Web Developer & Software Engineer",
-    description: "Explore Indrajit Sahani's portfolio featuring his achievements, freelancing as a Full Stack Web Developer, and more.",
+    title: "Indrajit Sahani - Full-Stack Engineer",
+    description: "Full-stack engineer building and running production systems: infra, observability, email deliverability, and AI tooling.",
 
   },
   twitter: {
     card: "summary_large_image",
     site: "@sahani_indrajit",
     creator: "@sahani_indrajit",
-    title: "Indrajit Sahani - Full Stack Developer & Software Engineer",
+    title: "Indrajit Sahani - Full-Stack Engineer",
     description:
-      "Explore the portfolio of Indrajit Sahani, a Full Stack Web Developer and Software Engineer with experience in AI development and freelance projects.",
+      "Full-stack engineer building and running production systems: infra, observability, email deliverability, and AI tooling.",
 
 
   },
@@ -85,10 +85,11 @@ export default function RootLayout({
                 "https://x.com/sahani_indrajit",
                 "https://sahaniindrajit.hashnode.dev/"
               ],
-              jobTitle: "Founder",
+              jobTitle: "Full-Stack Engineer",
               worksFor: {
                 "@type": "Organization",
-
+                name: "Enrich Labs",
+                url: "https://www.enrich.so/",
               },
               knowsAbout: [
                 "Web Development",
@@ -97,13 +98,18 @@ export default function RootLayout({
                 "JavaScript",
                 "TypeScript",
                 "AI Development",
+                "Go",
+                "Node.js",
+                "Infrastructure",
+                "Observability",
+                "Email Deliverability",
               ],
               alumniOf: {
                 "@type": "CollegeOrUniversity",
                 name: "Guru Gobind Singh Indraprastha University",
               },
               description:
-                "I am a passionate Web Developer with a focus on creating innovative digital solutions. With experience in the MERN stack (MongoDB, Express.js, React, Node.js) and Next.js, I have a solid foundation in full-stack development. I am also exploring the possibilities of Artificial Intelligence and stay updated on the latest technologies. I enjoy engaging in personal projects and share my knowledge and learning through blog posts and online platforms.",
+                "Full-stack engineer at Enrich Labs, owning Sendkit end to end across product engineering, infrastructure, observability, email deliverability, and AI integrations (CLI and MCP). Works with TypeScript, Node.js, Go, Next.js, MongoDB, PostgreSQL, Redis, Docker, and OpenTelemetry.",
             }),
           }}
         />

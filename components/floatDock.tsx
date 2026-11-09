@@ -12,11 +12,11 @@ import {
 export function FloatDock() {
     const links = [
         {
-            title: "Reume",
+            title: "Resume",
             icon: (
                 <IconFileInfo stroke={2} className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://drive.google.com/file/d/1DTAsrrfTlJaWglK5PHIutfIyu6HgFZ9n/view?usp=sharing",
+            href: "/resume",
             target: "_blank",
         },
 

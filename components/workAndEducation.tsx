@@ -4,13 +4,13 @@ import React from "react";
 
 const workExperiences = [
     {
-        title: "Web Developer",
-        company: "Google Developer Group",
-        companyUrl: "https://gdg.community.dev/gdg-on-campus-guru-tegh-bahadur-institute-of-technology-delhi-india/",
-        date: "November, 2024 - Present",
+        title: "Full-Stack Developer",
+        company: "Enrich Labs",
+        companyUrl: "https://www.enrich.so/",
+        date: "October, 2025 - Present",
         description:
-            "Collaborated with a community of developers to build impactful web projects, contributing to open-source initiatives and knowledge-sharing sessions.",
-        isLatest: false,
+            "Own Sendkit (sendkit.ai), a cold email outreach platform for GTM agencies, end to end: engineering across product, backend, and infrastructure, plus coordinating with the team on how features and systems should work. Built monitoring across all production servers, shipped the CLI and MCP integrations, drove email deliverability improvements, and led scalability and performance work.",
+        isLatest: true,
     },
     {
         title: "Full-Stack Developer Intern",
@@ -18,30 +18,28 @@ const workExperiences = [
         companyUrl: "https://www.youseai.com/",
         date: "January, 2025 - October, 2025",
         description:
-            "Building a LinkedIn automation tool to streamline outreach, manage connections, and enhance engagement through personalized messaging and workflow automation.",
+            "Built a LinkedIn automation tool for outreach, connection management, and personalized messaging workflows, including browser automation and multi-account handling.",
         isLatest: false,
     },
     {
-        title: "Full-Stack Developer",
-        company: "Enrich Labs",
-        companyUrl: "https://www.enrich.so/",
-        date: "October, 2025 - Present",
-        description: "",
-        // "Building a LinkedIn automation tool to streamline outreach, manage connections, and enhance engagement through personalized messaging and workflow automation.",
-        isLatest: true,
+        title: "Web Developer",
+        company: "Google Developer Group",
+        companyUrl: "https://gdg.community.dev/gdg-on-campus-guru-tegh-bahadur-institute-of-technology-delhi-india/",
+        date: "November, 2024 - Present",
+        description:
+            "Build web projects for the campus developer community and contribute to open-source and knowledge-sharing sessions.",
+        isLatest: false,
     },
-
-
 ];
 
 const educationExperiences = [
     {
-        title: "Bachelor of technology 🎓",
-        institution: "IPU",
+        title: "B.Tech, Information Technology 🎓",
+        institution: "GGSIPU",
         institutionUrl: "http://www.ipu.ac.in/",
         date: "2023 - 2027",
         description:
-            "I am currently enrolled in the Bachelor of technology (B.Tech) Information Technology program at  GURU GOBIND SINGH INDRAPRASTHA UNIVERSITY, focusing on core areas like software development, Problem solving, Core fundamentals and Cyber Security. This enhances both my theoretical understanding and practical skills. This program is equipping me with the expertise needed to excel in the tech industry.",
+            "Guru Gobind Singh Indraprastha University, Delhi. Focus on software development, problem solving, CS fundamentals, and cybersecurity.",
         isLatest: false,
     },
 ];
